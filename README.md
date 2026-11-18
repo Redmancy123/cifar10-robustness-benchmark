@@ -93,7 +93,7 @@ python scripts/summarize.py --config configs/frozen_v1_2.json
 
 ## 实验附件
 
-[Releases](https://github.com/Redmancy123/cifar10-robustness-benchmark/releases) 提供 `experiment-artifacts-v1.2.zip`：15 个验证集选择的权重、全部逐样本预测、训练历史与评价记录。SHA-256 见 [发布清单](evidence/publication_manifest.json)。压缩包不包含原始数据集及优化器恢复状态。
+[Releases](https://github.com/Redmancy123/cifar10-robustness-benchmark/releases) 提供 `experiment-artifacts-v1.2.zip`：15 个验证集选择的权重、全部逐样本预测、训练历史与评价记录。SHA-256 见 [发布清单](evidence/publication_manifest.json)。压缩包不包含原始数据集及用于断点恢复的 `last.pt`。`best.pt` 仍保留优化器、GradScaler、随机状态及历史等元数据，主要用于选定模型评价，不能视为恢复原训练轨迹的入口。
 
 仅重画已有实验时，先准备数据，再在仓库根目录解压附件，最后运行 `summarize.py`。附件会恢复 `runs/` 和 `results/predictions/`。不要在已经开始的新训练目录中覆盖解压；使用单独 clone。附件中的 `completed.json` 对应归档权重，不能把它与新的训练结果混用。
 
