@@ -1,0 +1,12 @@
+{
+  "time": "2026-11-18T02:39:18+08:00",
+  "status": "passed",
+  "checks": [
+    "Sparse normal recalibration exceeding 20 total skips remains valid",
+    "Eight consecutive skips trigger",
+    "Window boundary allows 20/2000 and rejects 21/2000",
+    "Scale below one, NaN and Inf trigger",
+    "Checkpoint state retains window, counters and scale",
+    "CPU GradScaler inf injection skips parameter update and backs off"
+  ]
+}

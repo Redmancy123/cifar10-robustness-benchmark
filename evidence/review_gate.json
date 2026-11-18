@@ -1,0 +1,34 @@
+{
+  "approved": true,
+  "time": "2026-11-18T02:39:20+08:00",
+  "reviewer": "/root/reviewer",
+  "scope": "v1.2 monitor false-alarm fix, preserved v1, common four workers, explicit frozen resume; independent review passed",
+  "source_hashes": {
+    "src/__init__.py": "1863558b129edf47003885ed9d66870dd97c2b60ab26d45200a4f0829ea03149",
+    "src/amp_health.py": "f29ed87f6b35184ab704b79eb086d29ce7d9129475379aef339ec26dafeebdbe",
+    "src/common.py": "b00844c108abb060acc6d32374923a799a1597f04a0d1d2d6a99c19a47946509",
+    "src/data.py": "c337034491b5dca1bdb8c9d0c1c1349913be36dd4160304bae3f2999bb9cd3e9",
+    "src/metrics.py": "0dcfd3ab9f5ec6c3592f4d38f897726c8cf1adbd78588376d009faccbd3a3bed",
+    "src/model.py": "c0c64eeae09b4766e3c579123c3467be4cbeb3ac96bf4b78f7a2eb05eabc17aa",
+    "src/runtime.py": "190aa58f1a3466dbe17f897546d4b9bebe240c579c7a59844fafc456a346b55a",
+    "scripts/check_amp_health.py": "cdcf5c443365c61fbcd8813b597cb3c3942586fceb1cfe938cb7cd2934b67ca8",
+    "scripts/check_cpu.py": "4069619654ca58835f3bd2815a5cf6156d351485fa2aebe93959105da96a7c36",
+    "scripts/check_watchdog.py": "ec207a78173f1f155d1e959346deda02fd8a621d40f83686b825921b3ea0fbb1",
+    "scripts/download_parallel.py": "5a0f83933b29416fa8763da6127de12f4552cced06135d0f90583a98ba330aba",
+    "scripts/evaluate.py": "aed6d3f0194da46057bb2f6321c0d70348dee40c8afaac2ae1554060a1a9a4a1",
+    "scripts/pipeline.py": "44b957af83f21f5143c758e7d84e8b20c41db7262ee74c2ec57dc8a04ed1362c",
+    "scripts/prepare_data.py": "8c8e8558ecf1288bcef08f085e5c70f97d0be6f3555638a72a04e5ab14fb8853",
+    "scripts/summarize.py": "f4c6bf848599aada03bbffc0996b1e2350e2fad139966ec88393c52b47d0653c",
+    "scripts/supervise.py": "fc313ca57b28526283c01191e7f602c27a8f440c45febbc858547afc984f6c93",
+    "scripts/train.py": "393cc32ba8ed3d68013ff6296a67ba42b1e19cc0aa29af63e78cf3e171f26028"
+  },
+  "candidate_sha256": "3cef724a682ca50cab34de1a0b6a20e5b1d0d10329cc73743b6da357376367a0",
+  "candidate_path": "configs/candidate_v1_2.json",
+  "conditions": [
+    "8 CPU numerical checks, 5 safety scenarios and 6 AMP health tests passed",
+    "five fresh supervised probes with AMP<=5 and peak allocated<=1800MiB",
+    "15 complete 3-seed runs and full evaluation estimated <=24h",
+    "frozen source/data/index checks and hardware watchdog retained",
+    "archive prior failed v1 run; do not mix protocols"
+  ]
+}

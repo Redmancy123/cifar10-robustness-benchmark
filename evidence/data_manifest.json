@@ -1,0 +1,169 @@
+{
+  "created": "2026-11-18T00:30:54+08:00",
+  "split_seed": 20261117,
+  "train_n": 45000,
+  "val_n": 5000,
+  "test_n": 10000,
+  "train_indices_sha256": "d67e9813b513bd5c1bfc71290b55595a54e977a0b76f22a2815f857521a41116",
+  "val_indices_sha256": "a67927552f341cf0628caf0e9b29eb24823aa3a7b59464851a88239e5f8b8dab",
+  "archives": {
+    "cifar-10-python.tar.gz": {
+      "url": "https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz",
+      "md5": "c58f30108f718f92721af3b95e74349a",
+      "sha256": "6d958be074577803d12ecdefd02955f39262c83c16fe9348329d7fe0b5c001ce"
+    },
+    "CIFAR-10-C.tar": {
+      "url": "https://zenodo.org/records/2535967/files/CIFAR-10-C.tar?download=1",
+      "md5": "56bf5dcef84df0e2308c6dcbcbbd8499",
+      "sha256": "c72763e101c723b7c507b96205f7e938912a5d587376173b825850cf3cb876a7"
+    }
+  },
+  "corruptions": {
+    "gaussian_noise": {
+      "shape": [
+        50000,
+        32,
+        32,
+        3
+      ],
+      "sha256": "269c7f8f1b896cb96cf194814171d0cfc6d73a1546cd718ba629756a906ecaf1"
+    },
+    "shot_noise": {
+      "shape": [
+        50000,
+        32,
+        32,
+        3
+      ],
+      "sha256": "645936b5a5cf0b72151289c598b61b59429c917b346256e63d399a8c3a5ed078"
+    },
+    "impulse_noise": {
+      "shape": [
+        50000,
+        32,
+        32,
+        3
+      ],
+      "sha256": "9eaebc6e508ebe05382c2631177ca1503f6f3aea68090c509d24506f86b1164f"
+    },
+    "defocus_blur": {
+      "shape": [
+        50000,
+        32,
+        32,
+        3
+      ],
+      "sha256": "6140f9954d10d5c606d598ca6e26d5d94a301894e94493035f03182f551b745e"
+    },
+    "glass_blur": {
+      "shape": [
+        50000,
+        32,
+        32,
+        3
+      ],
+      "sha256": "ec1586616c585b8f8742dc0003d9bebe07d822ed3c997b6215003d5afd66bdfa"
+    },
+    "motion_blur": {
+      "shape": [
+        50000,
+        32,
+        32,
+        3
+      ],
+      "sha256": "34baad18726fabefeb69b5cbedefda41ee7969dbed1562740ef9e1095d5dd954"
+    },
+    "zoom_blur": {
+      "shape": [
+        50000,
+        32,
+        32,
+        3
+      ],
+      "sha256": "a3af830b0759addce9ac555f938643f3dcf2b9fef9df7f4479750a568c62006f"
+    },
+    "snow": {
+      "shape": [
+        50000,
+        32,
+        32,
+        3
+      ],
+      "sha256": "84d3fdf8b17e18b7657804321dc13dd260ea1151c9bc91e55e13656e5f5410f2"
+    },
+    "frost": {
+      "shape": [
+        50000,
+        32,
+        32,
+        3
+      ],
+      "sha256": "8be9ab8d9095b3fb3ebf4dd60f0a83651be115c3ac77c8adc5b3e0d3add5ad8c"
+    },
+    "fog": {
+      "shape": [
+        50000,
+        32,
+        32,
+        3
+      ],
+      "sha256": "48f8f040b3aa25850119400ac2afacf72affdaaa3fcdd5daff425e876f996e50"
+    },
+    "brightness": {
+      "shape": [
+        50000,
+        32,
+        32,
+        3
+      ],
+      "sha256": "3bb5990e41b0212b62bc0b4385f4f95d68ecb94da627eacba4552381228a17c3"
+    },
+    "contrast": {
+      "shape": [
+        50000,
+        32,
+        32,
+        3
+      ],
+      "sha256": "cb5e3765f52a172a380ce8c8c3096b78669d2f01f4f6e958ee30729f680bb9fb"
+    },
+    "elastic_transform": {
+      "shape": [
+        50000,
+        32,
+        32,
+        3
+      ],
+      "sha256": "664626e48ed03abec17614d2c7a2cf827bc82778e2319573c73a49a99ca0b21a"
+    },
+    "pixelate": {
+      "shape": [
+        50000,
+        32,
+        32,
+        3
+      ],
+      "sha256": "6657f75ac66c907ad8206248bc1f48bef0dac219a1617f4dfd1b15e46ccf5ac7"
+    },
+    "jpeg_compression": {
+      "shape": [
+        50000,
+        32,
+        32,
+        3
+      ],
+      "sha256": "60bd735b9bba513df1f22adc460942de6ef03f9e5870340464db1fc7e6331d51"
+    }
+  },
+  "test_labels_sha256": "e6d972b1238665d8ef54aae5affe8e292dda1eb88a6840bf0f5988cdb649da7b",
+  "cifar_files": {
+    "batches.meta": "f962466ef690d46b226450fb9aadc74ba4bc64a76aa526b5827fe4bc5c7125cb",
+    "data_batch_1": "54636561a3ce25bd3e19253c6b0d8538147b0ae398331ac4a2d86c6d987368cd",
+    "data_batch_2": "766b2cef9fbc745cf056b3152224f7cf77163b330ea9a15f9392beb8b89bc5a8",
+    "data_batch_3": "0f00d98ebfb30b3ec0ad19f9756dc2630b89003e10525f5e148445e82aa6a1f9",
+    "data_batch_4": "3f7bb240661948b8f4d53e36ec720d8306f5668bd0071dcb4e6c947f78e9682b",
+    "data_batch_5": "d91802434d8376bbaeeadf58a737e3a1b12ac839077e931237e0dcd43adcb154",
+    "readme.html": "4d1c3fb199d6a183ae03f5162b469d7bc04edf2fad9547bd5f224271d52f98e5",
+    "test_batch": "f53d8d457504f7cff4ea9e021afcf0e0ad8e24a91f3fc42091b8adef61157831"
+  }
+}

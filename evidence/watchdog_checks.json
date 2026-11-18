@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "time": "2026-11-17T21:30:00+08:00",
+  "checks": [
+    "thermal passed",
+    "thermal_ram_failure passed",
+    "monitor_failure passed",
+    "stop_all passed",
+    "stale passed"
+  ]
+}

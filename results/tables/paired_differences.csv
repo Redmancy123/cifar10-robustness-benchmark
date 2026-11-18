@@ -1,0 +1,13 @@
+﻿comparison,seed,delta_pp
+augmix - erm,17,15.17573333333332
+augmix - erm,29,17.421333333333344
+augmix - erm,43,16.492800000000006
+augmix - erm,mean +/- sample SD,16.363289 +/- 1.128388
+warmup - augmix,17,0.05799999999999139
+warmup - augmix,29,-0.006266666666665532
+warmup - augmix,43,0.27079999999998217
+warmup - augmix,mean +/- sample SD,0.107511 +/- 0.145017
+warmup - matched,17,0.07986666666663922
+warmup - matched,29,0.6259999999999932
+warmup - matched,43,0.34639999999998006
+warmup - matched,mean +/- sample SD,0.350756 +/- 0.273093

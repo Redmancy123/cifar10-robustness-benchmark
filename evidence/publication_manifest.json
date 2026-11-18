@@ -1,0 +1,32 @@
+{
+  "config_hash": "7e8f42303106f6fccc5f22c08141580c0e4eddbf9529cdb854d855219661e49c",
+  "completed_runs": 15,
+  "epochs_per_run": 100,
+  "condition_rows": 1140,
+  "artifacts": {
+    "filename": "experiment-artifacts-v1.2.zip",
+    "bytes": 180683310,
+    "sha256": "6d3fc8e8a9f35a484106b19e2104761095fd0af8b0b72406d52f4bdc14171068",
+    "contents": "15 validation-selected checkpoints, 1140 per-condition prediction arrays, training histories and metric evidence",
+    "excluded": "raw datasets, last.pt optimizer states, exploratory/failed runs, local logs and telemetry streams"
+  },
+  "source_checks": {
+    "src/__init__.py": true,
+    "src/amp_health.py": true,
+    "src/common.py": true,
+    "src/data.py": true,
+    "src/metrics.py": true,
+    "src/model.py": true,
+    "src/runtime.py": true,
+    "scripts/check_amp_health.py": true,
+    "scripts/check_cpu.py": true,
+    "scripts/check_watchdog.py": true,
+    "scripts/download_parallel.py": true,
+    "scripts/evaluate.py": true,
+    "scripts/pipeline.py": true,
+    "scripts/prepare_data.py": true,
+    "scripts/summarize.py": true,
+    "scripts/supervise.py": true,
+    "scripts/train.py": true
+  }
+}

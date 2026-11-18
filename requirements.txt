@@ -1,0 +1,6 @@
+# Python 3.12.3 / Windows 11; install the CUDA build of torch separately (README).
+torch==2.5.1
+torchvision==0.20.1
+numpy==2.5.4
+Pillow==12.3.0
+matplotlib==3.11.2

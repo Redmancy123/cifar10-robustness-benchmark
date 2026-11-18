@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+.idea/
+.vscode/
+data/raw/
+data/data_manifest.json
+runs/
+results/predictions/
+*.partial
+*.extracting
+*.tmp
+*.pt
+*.zip

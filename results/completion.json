@@ -1,0 +1,19 @@
+{
+  "status": "completed",
+  "time": "2026-11-18T11:54:38+08:00",
+  "runs": 15,
+  "n_seeds": 3,
+  "epochs": 100,
+  "n_conditions": 1140,
+  "figures": [
+    "F02_corruption_examples.png",
+    "F03_severity_curves.png",
+    "F04_corruption_heatmap.png",
+    "F05_paired_differences.png",
+    "F06_clean_vs_corruption.png",
+    "F07_quality_vs_cost.png",
+    "F08_validation_learning_curves.png",
+    "F09_failure_and_improvement_cases.png"
+  ],
+  "interpretation": "No significance or originality claim; report positive, null and negative outcomes."
+}

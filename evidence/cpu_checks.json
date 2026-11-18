@@ -1,0 +1,15 @@
+{
+  "time": "2026-11-17T21:50:07+08:00",
+  "status": "passed",
+  "checks": [
+    "WRN shapes and finite CPU gradients",
+    "JSD identical-input zero, nonnegative and differentiable",
+    "Extreme underflow probabilities retain finite JSD gradients",
+    "Exact discrete mean-weight match including tiny schedules",
+    "Global F1/NLL/ECE batch partition invariance",
+    "Per-image/epoch/view determinism and AugMix/warmup paired inputs",
+    "Windows persistent worker sees shared epoch changes",
+    "Archive traversal rejected and equal-size corruption replaced"
+  ],
+  "parameters": 691674
+}

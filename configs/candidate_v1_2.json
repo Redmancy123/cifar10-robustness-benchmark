@@ -1,0 +1,19 @@
+{
+  "version": "v1.2",
+  "frozen": false,
+  "depth": 16,
+  "width": 2,
+  "batch_size": 64,
+  "eval_batch_size": 256,
+  "workers": 4,
+  "epochs": 100,
+  "lr": 0.05,
+  "amp": true,
+  "seeds": [17, 29, 43],
+  "methods": ["erm", "mixup", "augmix", "warmup", "matched"],
+  "evaluation_profile": "full",
+  "amp_monitor": {"window": 2000, "max_window_skip_fraction": 0.01, "max_consecutive_skips": 8, "minimum_scale": 1.0},
+  "selection": "minimum_clean_validation_nll",
+  "protocol_amendment": "Replace cumulative AMP-skip false alarm with persistence/frequency monitor; keep original failed run separate. Four deterministic data workers for throughput, measured before freeze.",
+  "corruption_types": ["gaussian_noise", "shot_noise", "impulse_noise", "defocus_blur", "glass_blur", "motion_blur", "zoom_blur", "snow", "frost", "fog", "brightness", "contrast", "elastic_transform", "pixelate", "jpeg_compression"]
+}
